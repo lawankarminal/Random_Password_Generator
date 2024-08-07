@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Generate a <br><span>Random Password</span></h1>
+    <div class="display">
+        <input type="text" id="password" placeholder="Password" >
+        <button class="bi bi-copy"  style=" cursor: pointer;font-size:30px; color: #fff" onclick="copyPass()"></button>
+    </div>
+    <button onclick="createPass()"><i class="bi bi-lightning-charge"></i>Generate Password</button>
+    
+</div>
+  <script src="script.js"></script> 
+</body>
+</html>
